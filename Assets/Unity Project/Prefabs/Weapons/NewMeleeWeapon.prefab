@@ -144,7 +144,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8448
   MinDamageCaused: 10
-  MaxDamageCaused: 0
+  MaxDamageCaused: 10
   Knockback: 0
   KnockbackForce: {x: 10, y: 2}
   InvincibilityDuration: 0.5
@@ -349,6 +349,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370252604165374891, guid: d9ccde34f9410244ca4bf32d2ab5db7b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1370252604963204738, guid: d9ccde34f9410244ca4bf32d2ab5db7b,
         type: 3}
